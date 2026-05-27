@@ -8,13 +8,16 @@ include = ["dream_toolbox*"]
 
 [project]
 name = "dream_toolbox"
-version = "0.1.2"
+version = "0.1.3"
 description = "Multifunctional tool kit"
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
 authors = [
   {name = "MZ chen", email = "hyhpchenmengzhu@gmail.com"}
+]
+dependencies = [
+    "openai>=2.2.0",
 ]
 
 [project.urls]
